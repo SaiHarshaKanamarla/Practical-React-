@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import { FaReact } from 'react-icons/fa';
+import { MdAccessAlarm } from "react-icons/md";
+import { IconContext } from 'react-icons';
+
 import './App.css';
+import ReactIcons from './components/ReactIcons';
+import ToastNotification from './components/ToastNotifications';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 style={{ color: "green", textAlign: 'center' }}>Uncomment Any of the components below visualize</h1>
+      {/*<ReactIcons />
+      <ToastNotification />*/}
     </div>
   );
 }
