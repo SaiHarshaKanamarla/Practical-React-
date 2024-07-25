@@ -12,7 +12,7 @@ import VideoPlayer from './components/VideoPlayer';
 function App() {
   return (
     <div>
-      <h1 style={{ color: "green", textAlign: 'center' }}>Uncomment Any of the components below visualize</h1>
+      <h1 style={{ color: "green", textAlign: 'center' }}>Uncomment Any of the components below to visualize</h1>
       {/*
         
         <ReactIcons />
